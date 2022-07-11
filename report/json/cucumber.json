@@ -1,0 +1,302 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2962174300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Invalid login results in error message",
+        "description": "",
+        "id": "trello-login-capability;invalid-login-results-in-error-message",
+        "after": [
+          {
+            "result": {
+              "duration": 772537200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3666415100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on trello home page",
+            "match": {
+              "location": "LoginFeatureScenariosSteps.user_is_on_trello_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3901800000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user goes to trello login page",
+            "match": {
+              "location": "LoginFeatureScenariosSteps.user_goes_to_trello_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4316680800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters invalid credentials",
+            "match": {
+              "location": "LoginFeatureScenariosSteps.user_enters_invalid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2117405400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks login button",
+            "match": {
+              "location": "LoginFeatureScenariosSteps.user_clicks_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2070529800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should see error message",
+            "match": {
+              "location": "LoginFeatureScenariosSteps.user_should_see_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@reg"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1278826200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "User can click cant login link",
+        "description": "",
+        "id": "trello-login-capability;user-can-click-cant-login-link",
+        "after": [
+          {
+            "result": {
+              "duration": 620802500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3102739200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user is on trello home page",
+            "match": {
+              "location": "LoginFeatureScenariosSteps.user_is_on_trello_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3821070500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user goes to trello login page",
+            "match": {
+              "location": "LoginFeatureScenariosSteps.user_goes_to_trello_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1201200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user scroll down",
+            "match": {
+              "location": "LinksSteps.user_scroll_down()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 101811500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user should see cant login link",
+            "match": {
+              "location": "LinksSteps.user_should_see_cant_login_link()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Trello login capability",
+    "description": "",
+    "id": "trello-login-capability",
+    "keyword": "Feature",
+    "uri": "login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@uat"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1264494900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User can sign up",
+        "description": "",
+        "id": "use-can-sign-up-if-they-cant-login;user-can-sign-up",
+        "after": [
+          {
+            "result": {
+              "duration": 622192300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3183051700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on trello home page",
+            "match": {
+              "location": "LoginFeatureScenariosSteps.user_is_on_trello_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3754333200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user goes to trello login page",
+            "match": {
+              "location": "LoginFeatureScenariosSteps.user_goes_to_trello_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 446600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user says they cannot sign in",
+            "match": {
+              "location": "SignUpSteps.user_says_they_cannot_sign_in()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 72804400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should see cant login link",
+            "match": {
+              "location": "LinksSteps.user_should_see_cant_login_link()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@smoke"
+          },
+          {
+            "line": 4,
+            "name": "@e2e"
+          }
+        ]
+      }
+    ],
+    "name": "use can sign up if they cant login",
+    "description": "",
+    "id": "use-can-sign-up-if-they-cant-login",
+    "keyword": "Feature",
+    "uri": "signup.feature"
+  }
+]
